@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+body {
+    font-family: 'UbuntuMono', sans-serif;
+    font-weight: 400;
+}
+
+.header{
+    display: flex;
+    gap: 15px;
+}
+
+@media (width <= 580px) {
+    .header {
+        display: block;
+        text-align: center;
+    } 
+}
+
+.header__title {
+padding: 0 0 0 20px;
+}
+
+.header__text-block{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+}
+
+.description{
+    padding: 0 0 10px 20px;
+    color: #577c9e;
+}
+
+.image {
+    box-shadow: 8px 8px 16px rgba(126, 174, 171, 0.742);
+    width: 180px;
+    border-radius: 20px;
+}
+
+.container {
+    max-width:750px;
+    margin: auto;
+    padding-block-start: 30px;
+}
+
+.title {
+    padding: 17px 10px 10px 21px;
+}
+
+.card{
+    border-radius: 20px;
+    padding: 0 0 5px 0;
+    margin-block-start: 15px;
+}
+
+.hobby__block {
+    background-color: #dce1fd;
+}
+
+.work__block {
+    background-color: #eee4ff;
+}
+
+.courses__block {
+    background-color: #ffe4ea;
+}
+
+a {
+text-decoration: none;
+font-weight: 600;
+margin-inline-start: 20px;
+padding: 0 5px 0 0;
+color: #9ec3dc;
+}
+
+.telegram:active {
+    text-decoration: underline 1px solid #4fc377;
+    color: #4fc377;
+}
+
+.telegram:visited {
+color:#36adc5;
+}
+
+.telegram:hover {
+    text-decoration: underline solid 3px #ffae00bc;
+    color: #ffae00;
+    cursor: pointer;
+}
+ 
+.youtube:active {
+    text-decoration: underline 1px solid #4fc377;
+    color: #4fc377;
+}
+    
+.youtube:visited {
+    color:#f31212;
+}
+    
+.youtube:hover {
+    text-decoration: underline solid 3px #ffae00bc;
+    color: #ffae00;
+    cursor: pointer;
+}
+  
+.instagram:active {
+    text-decoration: underline 1px solid #4fc377;
+    color: #4fc377;
+}
+    
+.instagram:visited {
+    color:#f51f8ee9;
+}
+    
+.instagram:hover {
+    text-decoration: underline solid 3px #ffae00bc;
+    color: #ffae00;
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 130px;
+    margin-block-start: 15px;
+    margin-block-end: 25px;
+    margin-inline-start: 40%;
+    padding: 10px 20px;
+    background-color: #98cf9a;
+    color: #152f29;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #ffbff322;
+    color: #6f0068;
+}
+
+.btn:active {
+    background-color: #f5bbd2;
+    text-decoration: underline solid 0.6px #6f0068;
+    color: #6f0068;
+}
+
+.list {
+padding: 0 40px;
+font-size: 18px;
+}
+
+.list li{
+    color: #5c5a5f;
+    margin-bottom: 10px;
+}
+
+.link-list{
+    list-style: none;
+    font-size: 18px;
+}
+
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #650c0c2e;
+    padding: 5px 10px 5px 0;
+    margin-inline-start: 23px;
+}
+
+.table {
+    padding: 0 0 10px 20px;
+    width: 100%;
+    font-size: 18px;
+}
+
+
+@media screen and (width <= 708px) {
+    .table {
+      overflow-x: scroll;
+    }
+}
+
+.table td {
+    padding:0 0 10px 0;
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: #594b7c;
+}
+
+th {
+    padding: 0 180px 15px 0;
+}
+
+.table th:nth-child(2),
+.table th:nth-child(3) {
+    color: #4b3f69;
+}
+
+.form {
+    margin-block-start: 15px;
+    margin-block-end: 25px;
+    border-radius: 20px;
+    background-color: #8957000b; 
+}
+
+.form h2{
+    text-align: center;
+}
+
+.form-row {
+    margin-block-end: 15px;
+    display: flex;
+}
+
+.form-row .form-group {
+    margin-inline-end: 23px;
+    width: 50%;
+}
+
+.form-row .form-group:last-child {
+margin-inline-end: 0;
+}
+   
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid #482a0064;
+    outline: none;
+    margin-bottom: 5px;
+    background-color: transparent; 
+    color: #482a0072;
+    font-size: 18px;
+    font-family: inherit;
+}
+
